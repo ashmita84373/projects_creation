@@ -1,0 +1,9 @@
+
+phonebook={"ashmita":7865894534,"jiya":5637980923,"tania":2347689546,"raman":7689543465,"riya":9876509876}
+
+name=input("enter the name")
+number=int(input("enter the contact number"))
+phonebook[name]=number
+print("contact saved")
+print("contact list after adding new contacts")
+print(phonebook)
