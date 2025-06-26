@@ -1,0 +1,43 @@
+class employee_management_system:
+
+    def _init_(self, name, salary, age, employee_id, city, gender):
+        self.name = name
+        self.age = age
+        self.salary = salary
+        self.employee_id = employee_id
+        self.city = city
+        self.gender = gender
+
+    def get_name(self):
+        return self.name
+
+    def get_age(self):
+        return self.age
+
+    def get_salary(self):
+        return self.salary
+
+    def get_gender(self):
+        return self.gender
+
+    def get_employee_id(self):
+        return self.employee_id
+
+    def get_city(self):
+        return self.city
+
+
+# ✅ Creating employee objects
+employee_1 = employee_management_system("Ram", 18000, 20, 6900, "Abohar", "Male")
+employee_2 = employee_management_system("Sham", 19000, 25, 6901, "Fazilka", "Male")
+employee_3 = employee_management_system("Riya", 20000, 23, 6902, "Jalalabad", "Female")
+employee_4 = employee_management_system("Mehak", 15000, 17, 6903, "Muktsar", "Female")
+employee_5 = employee_management_system("Jatin", 15000, 29, 6904, "Ferozpur", "Male")
+
+# ✅ Displaying details of employee_1
+print("Name:", employee_1.get_name())
+print("Age:", employee_1.get_age())
+print("Salary:", employee_1.get_salary())
+print("Employee ID:", employee_1.get_employee_id())
+print("City:", employee_1.get_city())
+print("Gender:", employee_1.get_gender())
