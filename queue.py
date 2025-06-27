@@ -1,0 +1,12 @@
+l=[]
+l.append("hello")
+l.append("jiya")
+l.append("king")
+l.append("kiok")
+print("total customers")
+print(l)
+print("the first customer is")
+print(l[0])
+print("after removal of first customer how  many are left for tickets")
+first=l.pop(0)
+print(l)
