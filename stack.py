@@ -1,0 +1,12 @@
+a=[]
+a.append("hello")
+a.append(56)
+print("total customers")
+print(a)
+print("the last one  customer to be removed")
+last=a.pop()
+print(a)
+print("the customer that has removed ")
+print(a[len (a)-1])
+print("the customers left")
+print(a)
